@@ -8,7 +8,7 @@
     "gendiff": "bin/gendiff.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,12 @@
   },
   "homepage": "https://github.com/medyak/frontend-project-46#readme",
   "dependencies": {
+    "@jest/globals": "^29.5.0",
     "commander": "^10.0.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@types/node": "^18.14.6",
     "eslint": "^8.35.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
